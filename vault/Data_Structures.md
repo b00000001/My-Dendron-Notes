@@ -2,13 +2,13 @@
 id: tg693e9l5g77psni6defy6h
 title: Data_Structures
 desc: ''
-updated: 1649303870725
+updated: 1649305297474
 created: 1649051705266
 ---
 
 ### Data Structures
 
-1. [Arrays](./Arrays)
+1. [Arrays](./Data_Structures.Arrays)
 2. [Stack](./Stack)
 3. [Linked Lists](./Linked_Lists)
 4. [Binary Trees](./Binary_Trees)
