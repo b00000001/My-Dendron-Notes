@@ -2,7 +2,7 @@
 id: wn8PE1RhG0znK1alrGFYv
 title: Root
 desc: ''
-updated: 1645566125381
+updated: 1649291235044
 created: 1631901573363
 ---
 # Welcome to Dendron
@@ -13,4 +13,14 @@ This is the root of your dendron vault. If you decide to publish your entire vau
 
 Last updated: 
 - version: v0.83
+
+# Aaron Deas (My Notebook)
+
+### Sections:
+
+1. [TypeScript Info](./Typescript.md)
+2. [Testing](./Testing)
+3. [Database](./Database)
+4. [Gaming](./Gaming)
+5. [Data Structures](./Data_Structures)
 
