@@ -2,13 +2,14 @@
 id: wn8PE1RhG0znK1alrGFYv
 title: Root
 desc: ''
-updated: 1649303312148
+updated: 1649446047937
 created: 1631901573363
 ---
 
-# Welcome to Dendron
+# My notes (@binarystag)
 
-# Aaron Deas (My Notebook)
+[LinkedIn](https://www.linkedin.com/in/aaron-deas-ba9908166/)
+[Github](https://github.com/b00000001)
 
 ### Sections:
 
