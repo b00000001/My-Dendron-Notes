@@ -1,0 +1,1862 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "vault"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1649894395082,
+      "created": 1649894395082,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "wn8PE1RhG0znK1alrGFYv": {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Root",
+      "desc": "",
+      "updated": 1649446047937,
+      "created": 1631901573363,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "507d4dbcd7bf14ced7918d640729fe22",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "wn8PE1RhG0znK1alrGFYv",
+            "vaultName": "vault"
+          },
+          "value": "user.binarystag",
+          "alias": "@binarystag",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 13,
+              "offset": 13
+            },
+            "end": {
+              "line": 2,
+              "column": 24,
+              "offset": 24
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.binarystag"
+          }
+        }
+      ],
+      "anchors": {
+        "my-notes-binarystag": {
+          "type": "header",
+          "text": "My notes (@binarystag)",
+          "value": "my-notes-binarystag",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "sections": {
+          "type": "header",
+          "text": "Sections:",
+          "value": "sections",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "8fw4xwe5s296cc697g6wdal",
+        "tg693e9l5g77psni6defy6h",
+        "NUz98ls1bdGed4HXQ0Z4C",
+        "Mhv0wNqRgu2h7j3Ws71eo",
+        "Te2jPQSZKapqVSsNhw7jA",
+        "m41bS3zCQX1qEK2y2GD03",
+        "root"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "root": {
+      "id": "root",
+      "title": "root",
+      "desc": "",
+      "updated": 1643158245501,
+      "created": 1595961348801,
+      "stub": false,
+      "custom": {
+        "stub": false
+      },
+      "fname": "root copy",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2c3708ccee30ed66c4c8af422fa00a9e",
+      "links": [],
+      "anchors": {
+        "aaron-deas-my-notebook": {
+          "type": "header",
+          "text": "Aaron Deas (My Notebook)",
+          "value": "aaron-deas-my-notebook",
+          "line": 9,
+          "column": 0,
+          "depth": 1
+        },
+        "sections": {
+          "type": "header",
+          "text": "Sections:",
+          "value": "sections",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "m41bS3zCQX1qEK2y2GD03": {
+      "id": "m41bS3zCQX1qEK2y2GD03",
+      "title": "Typescript",
+      "desc": "",
+      "updated": 1649303007685,
+      "created": 1640996781539,
+      "custom": {},
+      "fname": "Typescript",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "2cab6ac7e6a4203615844f68ce768763",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Typescript",
+            "id": "m41bS3zCQX1qEK2y2GD03",
+            "vaultName": "vault"
+          },
+          "value": "Typescript.AppSetup",
+          "alias": "AppSetup",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 4,
+              "offset": 31
+            },
+            "end": {
+              "line": 6,
+              "column": 36,
+              "offset": 63
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Typescript.AppSetup"
+          }
+        },
+        {
+          "from": {
+            "fname": "Typescript.AppSetup",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 1,
+              "offset": 510
+            },
+            "end": {
+              "line": 8,
+              "column": 20,
+              "offset": 529
+            },
+            "indent": []
+          },
+          "value": "Typescript",
+          "alias": "Back"
+        }
+      ],
+      "anchors": {
+        "typescript": {
+          "type": "header",
+          "text": "Typescript",
+          "value": "typescript",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "contents": {
+          "type": "header",
+          "text": "Contents",
+          "value": "contents",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "aqC9hgjcukewMHrV47bVC",
+        "PyvdYfaoqUE9wikvRsPfJ"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "PyvdYfaoqUE9wikvRsPfJ": {
+      "id": "PyvdYfaoqUE9wikvRsPfJ",
+      "title": "Types",
+      "desc": "",
+      "updated": 1641101464109,
+      "created": 1640997047882,
+      "custom": {},
+      "fname": "Typescript.Types",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "5e74b12d23d25101faa3d29ca0c054ac",
+      "links": [],
+      "anchors": {
+        "contents": {
+          "type": "header",
+          "text": "Contents",
+          "value": "contents",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "tips": {
+          "type": "header",
+          "text": "Tips",
+          "value": "tips",
+          "line": 23,
+          "column": 0,
+          "depth": 3
+        },
+        "output": {
+          "type": "header",
+          "text": "Output",
+          "value": "output",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "unions": {
+          "type": "header",
+          "text": "Unions",
+          "value": "unions",
+          "line": 47,
+          "column": 0,
+          "depth": 3
+        },
+        "top": {
+          "type": "header",
+          "text": "Top",
+          "value": "top",
+          "line": 63,
+          "column": 0,
+          "depth": 4
+        },
+        "booleans": {
+          "type": "header",
+          "text": "Booleans",
+          "value": "booleans",
+          "line": 67,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration",
+          "line": 71,
+          "column": 0,
+          "depth": 4
+        },
+        "usage": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage",
+          "line": 77,
+          "column": 0,
+          "depth": 4
+        },
+        "top-1": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-1",
+          "line": 91,
+          "column": 0,
+          "depth": 4
+        },
+        "strings": {
+          "type": "header",
+          "text": "Strings",
+          "value": "strings",
+          "line": 95,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-1": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-1",
+          "line": 99,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-1": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-1",
+          "line": 105,
+          "column": 0,
+          "depth": 4
+        },
+        "top-2": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-2",
+          "line": 114,
+          "column": 0,
+          "depth": 4
+        },
+        "arrays": {
+          "type": "header",
+          "text": "Arrays",
+          "value": "arrays",
+          "line": 116,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-2": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-2",
+          "line": 120,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-2": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-2",
+          "line": 126,
+          "column": 0,
+          "depth": 4
+        },
+        "top-3": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-3",
+          "line": 144,
+          "column": 0,
+          "depth": 4
+        },
+        "tuple": {
+          "type": "header",
+          "text": "Tuple",
+          "value": "tuple",
+          "line": 148,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-3": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-3",
+          "line": 152,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-3": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-3",
+          "line": 158,
+          "column": 0,
+          "depth": 4
+        },
+        "top-4": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-4",
+          "line": 168,
+          "column": 0,
+          "depth": 4
+        },
+        "enum": {
+          "type": "header",
+          "text": "Enum",
+          "value": "enum",
+          "line": 172,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-4": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-4",
+          "line": 176,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-4": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-4",
+          "line": 188,
+          "column": 0,
+          "depth": 3
+        },
+        "output-1": {
+          "type": "header",
+          "text": "Output:",
+          "value": "output-1",
+          "line": 203,
+          "column": 0,
+          "depth": 4
+        },
+        "output-2": {
+          "type": "header",
+          "text": "Output",
+          "value": "output-2",
+          "line": 224,
+          "column": 0,
+          "depth": 3
+        },
+        "top-5": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-5",
+          "line": 230,
+          "column": 0,
+          "depth": 4
+        },
+        "unknown": {
+          "type": "header",
+          "text": "Unknown",
+          "value": "unknown",
+          "line": 234,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-5": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-5",
+          "line": 240,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-5": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-5",
+          "line": 246,
+          "column": 0,
+          "depth": 4
+        },
+        "output-3": {
+          "type": "header",
+          "text": "Output",
+          "value": "output-3",
+          "line": 256,
+          "column": 0,
+          "depth": 3
+        },
+        "top-6": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-6",
+          "line": 262,
+          "column": 0,
+          "depth": 4
+        },
+        "any": {
+          "type": "header",
+          "text": "Any",
+          "value": "any",
+          "line": 266,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-6": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-6",
+          "line": 270,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-6": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-6",
+          "line": 276,
+          "column": 0,
+          "depth": 4
+        },
+        "top-7": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-7",
+          "line": 295,
+          "column": 0,
+          "depth": 4
+        },
+        "void": {
+          "type": "header",
+          "text": "Void",
+          "value": "void",
+          "line": 299,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-7": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-7",
+          "line": 305,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-7": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-7",
+          "line": 312,
+          "column": 0,
+          "depth": 4
+        },
+        "output-4": {
+          "type": "header",
+          "text": "Output",
+          "value": "output-4",
+          "line": 323,
+          "column": 0,
+          "depth": 3
+        },
+        "top-8": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-8",
+          "line": 329,
+          "column": 0,
+          "depth": 4
+        },
+        "null": {
+          "type": "header",
+          "text": "Null",
+          "value": "null",
+          "line": 333,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-8": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-8",
+          "line": 337,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-8": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-8",
+          "line": 343,
+          "column": 0,
+          "depth": 4
+        },
+        "output-5": {
+          "type": "header",
+          "text": "Output",
+          "value": "output-5",
+          "line": 353,
+          "column": 0,
+          "depth": 3
+        },
+        "top-9": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-9",
+          "line": 359,
+          "column": 0,
+          "depth": 4
+        },
+        "never": {
+          "type": "header",
+          "text": "Never",
+          "value": "never",
+          "line": 363,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-9": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-9",
+          "line": 369,
+          "column": 0,
+          "depth": 4
+        },
+        "top-10": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-10",
+          "line": 377,
+          "column": 0,
+          "depth": 4
+        },
+        "object": {
+          "type": "header",
+          "text": "Object",
+          "value": "object",
+          "line": 381,
+          "column": 0,
+          "depth": 3
+        },
+        "declaration-10": {
+          "type": "header",
+          "text": "Declaration",
+          "value": "declaration-10",
+          "line": 385,
+          "column": 0,
+          "depth": 4
+        },
+        "usage-9": {
+          "type": "header",
+          "text": "Usage",
+          "value": "usage-9",
+          "line": 396,
+          "column": 0,
+          "depth": 4
+        },
+        "note": {
+          "type": "header",
+          "text": "Note",
+          "value": "note",
+          "line": 410,
+          "column": 0,
+          "depth": 3
+        },
+        "or": {
+          "type": "header",
+          "text": "Or",
+          "value": "or",
+          "line": 428,
+          "column": 0,
+          "depth": 3
+        },
+        "top-11": {
+          "type": "header",
+          "text": "Top",
+          "value": "top-11",
+          "line": 440,
+          "column": 0,
+          "depth": 4
+        },
+        "back": {
+          "type": "header",
+          "text": "Back",
+          "value": "back",
+          "line": 444,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "m41bS3zCQX1qEK2y2GD03",
+      "data": {}
+    },
+    "aqC9hgjcukewMHrV47bVC": {
+      "id": "aqC9hgjcukewMHrV47bVC",
+      "title": "AppSetup",
+      "desc": "",
+      "updated": 1642224856739,
+      "created": 1642224590036,
+      "custom": {},
+      "fname": "Typescript.AppSetup",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "54c46d86e83a78eb697e43769b93fedc",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Typescript.AppSetup",
+            "id": "aqC9hgjcukewMHrV47bVC",
+            "vaultName": "vault"
+          },
+          "value": "Typescript",
+          "alias": "Back",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 1,
+              "offset": 510
+            },
+            "end": {
+              "line": 8,
+              "column": 20,
+              "offset": 529
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Typescript"
+          }
+        },
+        {
+          "from": {
+            "fname": "Typescript",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 4,
+              "offset": 31
+            },
+            "end": {
+              "line": 6,
+              "column": 36,
+              "offset": 63
+            },
+            "indent": []
+          },
+          "value": "Typescript.AppSetup",
+          "alias": "AppSetup"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "m41bS3zCQX1qEK2y2GD03",
+      "data": {}
+    },
+    "Te2jPQSZKapqVSsNhw7jA": {
+      "id": "Te2jPQSZKapqVSsNhw7jA",
+      "title": "Testing",
+      "desc": "",
+      "updated": 1642224928532,
+      "created": 1642222180666,
+      "custom": {},
+      "fname": "Testing",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b0397161e3fc73cf39792bb4f03ac573",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Testing",
+            "id": "Te2jPQSZKapqVSsNhw7jA",
+            "vaultName": "vault"
+          },
+          "value": "Testing.Jest",
+          "alias": "Jest",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 4,
+              "offset": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 25,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Testing.Jest"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Testing",
+            "id": "Te2jPQSZKapqVSsNhw7jA",
+            "vaultName": "vault"
+          },
+          "value": "Testing.Supertest",
+          "alias": "Supertest",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 39
+            },
+            "end": {
+              "line": 5,
+              "column": 35,
+              "offset": 70
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Testing.Supertest"
+          }
+        },
+        {
+          "from": {
+            "fname": "Testing.Supertest",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 1,
+              "offset": 2106
+            },
+            "end": {
+              "line": 75,
+              "column": 17,
+              "offset": 2122
+            },
+            "indent": []
+          },
+          "value": "Testing",
+          "alias": "Back"
+        }
+      ],
+      "anchors": {
+        "jest": {
+          "type": "header",
+          "text": "Jest",
+          "value": "jest",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "BvylLDmKLjzTLRC8hRPmw",
+        "d2Mw1WWZ2RpIbaGwpgEie"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "d2Mw1WWZ2RpIbaGwpgEie": {
+      "id": "d2Mw1WWZ2RpIbaGwpgEie",
+      "title": "Supertest",
+      "desc": "",
+      "updated": 1642309274724,
+      "created": 1642224964338,
+      "custom": {},
+      "fname": "Testing.Supertest",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "f76f4344a3b23b9721ef33fc7d582f0d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Testing.Supertest",
+            "id": "d2Mw1WWZ2RpIbaGwpgEie",
+            "vaultName": "vault"
+          },
+          "value": "Testing",
+          "alias": "Back",
+          "position": {
+            "start": {
+              "line": 75,
+              "column": 1,
+              "offset": 2106
+            },
+            "end": {
+              "line": 75,
+              "column": 17,
+              "offset": 2122
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Testing"
+          }
+        },
+        {
+          "from": {
+            "fname": "Testing",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 39
+            },
+            "end": {
+              "line": 5,
+              "column": 35,
+              "offset": 70
+            },
+            "indent": []
+          },
+          "value": "Testing.Supertest",
+          "alias": "Supertest"
+        }
+      ],
+      "anchors": {
+        "installation": {
+          "type": "header",
+          "text": "Installation",
+          "value": "installation",
+          "line": 12,
+          "column": 0,
+          "depth": 3
+        },
+        "setup": {
+          "type": "header",
+          "text": "Setup",
+          "value": "setup",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "api-guide": {
+          "type": "header",
+          "text": "API Guide",
+          "value": "api-guide",
+          "line": 46,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "Te2jPQSZKapqVSsNhw7jA",
+      "data": {}
+    },
+    "BvylLDmKLjzTLRC8hRPmw": {
+      "id": "BvylLDmKLjzTLRC8hRPmw",
+      "title": "Jest",
+      "desc": "",
+      "updated": 1642224916773,
+      "created": 1642224916773,
+      "custom": {},
+      "fname": "Testing.Jest",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7876d007bd44de403ba721727d9dd8e8",
+      "links": [
+        {
+          "from": {
+            "fname": "Testing",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 4,
+              "offset": 14
+            },
+            "end": {
+              "line": 4,
+              "column": 25,
+              "offset": 35
+            },
+            "indent": []
+          },
+          "value": "Testing.Jest",
+          "alias": "Jest"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Te2jPQSZKapqVSsNhw7jA",
+      "data": {}
+    },
+    "Mhv0wNqRgu2h7j3Ws71eo": {
+      "id": "Mhv0wNqRgu2h7j3Ws71eo",
+      "title": "Gaming",
+      "desc": "",
+      "updated": 1642642940817,
+      "created": 1642642893733,
+      "custom": {},
+      "fname": "Gaming",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "35c1db909331a9c233af4b2bb1ac238c",
+      "links": [],
+      "anchors": {
+        "game-notes": {
+          "type": "header",
+          "text": "Game Notes",
+          "value": "game-notes",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "WexjHhZ6XPsVPVm9aTaSG",
+        "4iK7uWzeRolsIIV2fUcPT"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "4iK7uWzeRolsIIV2fUcPT": {
+      "id": "4iK7uWzeRolsIIV2fUcPT",
+      "title": "Incremental Game Brainstorming",
+      "desc": "",
+      "updated": 1643160349171,
+      "created": 1643160045507,
+      "custom": {},
+      "fname": "Gaming.Incremental_Game_Brainstorming",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4d0cbe4c98e16ab444df309339f2a609",
+      "links": [],
+      "anchors": {
+        "economy": {
+          "type": "header",
+          "text": "Economy",
+          "value": "economy",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "example-of-data-that-can-be-used": {
+          "type": "header",
+          "text": "Example of data that can be used",
+          "value": "example-of-data-that-can-be-used",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Mhv0wNqRgu2h7j3Ws71eo",
+      "data": {}
+    },
+    "WexjHhZ6XPsVPVm9aTaSG": {
+      "id": "WexjHhZ6XPsVPVm9aTaSG",
+      "title": "Final Fantasy Series",
+      "desc": "",
+      "updated": 1642642990852,
+      "created": 1642642948488,
+      "custom": {},
+      "fname": "Gaming.Final Fantasy Series",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7b90a25c49827f869c39c8b2cde10b95",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "rTX2Byza8wqRdhRGIDdsA"
+      ],
+      "parent": "Mhv0wNqRgu2h7j3Ws71eo",
+      "data": {}
+    },
+    "rTX2Byza8wqRdhRGIDdsA": {
+      "id": "rTX2Byza8wqRdhRGIDdsA",
+      "title": "Final Fantasy 7",
+      "desc": "",
+      "updated": 1642644220463,
+      "created": 1642643019587,
+      "custom": {},
+      "fname": "Gaming.Final Fantasy Series.Final Fantasy 7",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b9f8ec5fdd115c82e8bc55045c17e09a",
+      "links": [],
+      "anchors": {
+        "contents": {
+          "type": "header",
+          "text": "Contents",
+          "value": "contents",
+          "line": 7,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "WexjHhZ6XPsVPVm9aTaSG",
+      "data": {}
+    },
+    "NUz98ls1bdGed4HXQ0Z4C": {
+      "id": "NUz98ls1bdGed4HXQ0Z4C",
+      "title": "Database",
+      "desc": "",
+      "updated": 1649353029652,
+      "created": 1642223378763,
+      "custom": {},
+      "fname": "Database",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b97e13855156b06553dfeb1465991881",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Database",
+            "id": "NUz98ls1bdGed4HXQ0Z4C",
+            "vaultName": "vault"
+          },
+          "value": "Database.Mysql",
+          "alias": "Mysql",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 4,
+              "offset": 13
+            },
+            "end": {
+              "line": 4,
+              "column": 28,
+              "offset": 37
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Database.Mysql"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Database",
+            "id": "NUz98ls1bdGed4HXQ0Z4C",
+            "vaultName": "vault"
+          },
+          "value": "Database.MSSQL",
+          "alias": "MSSQL",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 41
+            },
+            "end": {
+              "line": 5,
+              "column": 28,
+              "offset": 65
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Database.MSSQL"
+          }
+        },
+        {
+          "from": {
+            "fname": "Database.MSSQL",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 52
+            },
+            "indent": []
+          },
+          "value": "Database",
+          "alias": "Back"
+        },
+        {
+          "from": {
+            "fname": "Database.Mysql",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 18,
+              "offset": 18
+            },
+            "indent": []
+          },
+          "value": "Database",
+          "alias": "Back"
+        }
+      ],
+      "anchors": {
+        "sql": {
+          "type": "header",
+          "text": "SQL",
+          "value": "sql",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "rcZtM3Lr2IwA1RrostUzx",
+        "LdyBBc09scCgb8KfpP0Ei"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "LdyBBc09scCgb8KfpP0Ei": {
+      "id": "LdyBBc09scCgb8KfpP0Ei",
+      "title": "Mysql",
+      "desc": "",
+      "updated": 1642223821399,
+      "created": 1642223742671,
+      "custom": {},
+      "fname": "Database.Mysql",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "c3550dbb25a18108f683c21deb374992",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Database.Mysql",
+            "id": "LdyBBc09scCgb8KfpP0Ei",
+            "vaultName": "vault"
+          },
+          "value": "Database",
+          "alias": "Back",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 1,
+              "offset": 1
+            },
+            "end": {
+              "line": 2,
+              "column": 18,
+              "offset": 18
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Database"
+          }
+        },
+        {
+          "from": {
+            "fname": "Database",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 4,
+              "offset": 13
+            },
+            "end": {
+              "line": 4,
+              "column": 28,
+              "offset": 37
+            },
+            "indent": []
+          },
+          "value": "Database.Mysql",
+          "alias": "Mysql"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "NUz98ls1bdGed4HXQ0Z4C",
+      "data": {}
+    },
+    "rcZtM3Lr2IwA1RrostUzx": {
+      "id": "rcZtM3Lr2IwA1RrostUzx",
+      "title": "MSSQL",
+      "desc": "",
+      "updated": 1642224558789,
+      "created": 1642223776816,
+      "custom": {},
+      "fname": "Database.MSSQL",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "7718a89d973c4e8eb12fbcd0b7e15e0c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Database.MSSQL",
+            "id": "rcZtM3Lr2IwA1RrostUzx",
+            "vaultName": "vault"
+          },
+          "value": "Database",
+          "alias": "Back",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 52
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Database"
+          }
+        },
+        {
+          "from": {
+            "fname": "Database",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 41
+            },
+            "end": {
+              "line": 5,
+              "column": 28,
+              "offset": 65
+            },
+            "indent": []
+          },
+          "value": "Database.MSSQL",
+          "alias": "MSSQL"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "NUz98ls1bdGed4HXQ0Z4C",
+      "data": {}
+    },
+    "tg693e9l5g77psni6defy6h": {
+      "id": "tg693e9l5g77psni6defy6h",
+      "title": "Data_Structures",
+      "desc": "",
+      "updated": 1649373788129,
+      "created": 1649051705266,
+      "custom": {},
+      "fname": "Data_Structures",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "b659e972428091654cb6eea3ec547587",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Data_Structures",
+            "id": "tg693e9l5g77psni6defy6h",
+            "vaultName": "vault"
+          },
+          "value": "Data_Structures.Arrays",
+          "alias": "Arrays",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 119
+            },
+            "end": {
+              "line": 5,
+              "column": 37,
+              "offset": 152
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Data_Structures.Arrays"
+          }
+        }
+      ],
+      "anchors": {
+        "data-structures": {
+          "type": "header",
+          "text": "Data Structures",
+          "value": "data-structures",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "bmtssbv7ilt2gxxbg0jzqsm",
+        "grj95kp159njgvtmvz8g0v0",
+        "mralq740wksq5x93gjx1mrt"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "mralq740wksq5x93gjx1mrt": {
+      "id": "mralq740wksq5x93gjx1mrt",
+      "title": "Stack",
+      "desc": "",
+      "updated": 1649119948104,
+      "created": 1649119948104,
+      "custom": {},
+      "fname": "Data_Structures.Stack",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "1ca6e1fb179c90d5139a1269a37b725c",
+      "links": [],
+      "anchors": {
+        "stack": {
+          "type": "header",
+          "text": "Stack",
+          "value": "stack",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        },
+        "functions": {
+          "type": "header",
+          "text": "Functions",
+          "value": "functions",
+          "line": 12,
+          "column": 0,
+          "depth": 4
+        }
+      },
+      "children": [],
+      "parent": "tg693e9l5g77psni6defy6h",
+      "data": {}
+    },
+    "grj95kp159njgvtmvz8g0v0": {
+      "id": "grj95kp159njgvtmvz8g0v0",
+      "title": "Concepts",
+      "desc": "",
+      "updated": 1649369037946,
+      "created": 1649369037946,
+      "custom": {},
+      "fname": "Data_Structures.Concepts",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "6683d74c69bfe117702180c7404fe416",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "3s8g4j07a4kgk5w6dml2nwt"
+      ],
+      "parent": "tg693e9l5g77psni6defy6h",
+      "data": {}
+    },
+    "3s8g4j07a4kgk5w6dml2nwt": {
+      "id": "3s8g4j07a4kgk5w6dml2nwt",
+      "title": "Fibonacci Study",
+      "desc": "",
+      "updated": 1649369595941,
+      "created": 1649369052619,
+      "custom": {},
+      "fname": "Data_Structures.Concepts.Fibonacci Study",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "a7bd8ba1fd4052b0ae28941b3ff71883",
+      "links": [],
+      "anchors": {
+        "fibonacci-algorithm": {
+          "type": "header",
+          "text": "Fibonacci Algorithm",
+          "value": "fibonacci-algorithm",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "grj95kp159njgvtmvz8g0v0",
+      "data": {}
+    },
+    "bmtssbv7ilt2gxxbg0jzqsm": {
+      "id": "bmtssbv7ilt2gxxbg0jzqsm",
+      "title": "Arrays",
+      "desc": "",
+      "updated": 1649304624748,
+      "created": 1649303876364,
+      "custom": {},
+      "fname": "Data_Structures.Arrays",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4c1d53906720e50b792a21e19f6474ad",
+      "links": [
+        {
+          "from": {
+            "fname": "Data_Structures",
+            "vaultName": "vault"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 4,
+              "offset": 119
+            },
+            "end": {
+              "line": 5,
+              "column": 37,
+              "offset": 152
+            },
+            "indent": []
+          },
+          "value": "Data_Structures.Arrays",
+          "alias": "Arrays"
+        }
+      ],
+      "anchors": {
+        "array-declaration": {
+          "type": "header",
+          "text": "Array Declaration",
+          "value": "array-declaration",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "array-methods": {
+          "type": "header",
+          "text": "Array Methods",
+          "value": "array-methods",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "ba7jyli2y10a52cdsxpo1ds"
+      ],
+      "parent": "tg693e9l5g77psni6defy6h",
+      "data": {}
+    },
+    "ba7jyli2y10a52cdsxpo1ds": {
+      "id": "ba7jyli2y10a52cdsxpo1ds",
+      "title": "2d Arrays",
+      "desc": "",
+      "updated": 1649386961543,
+      "created": 1649386873502,
+      "custom": {},
+      "fname": "Data_Structures.Arrays.2d Arrays",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "4efab3a3e1253edd8d8c9d8412e694bc",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "bmtssbv7ilt2gxxbg0jzqsm",
+      "data": {}
+    },
+    "8fw4xwe5s296cc697g6wdal": {
+      "id": "8fw4xwe5s296cc697g6wdal",
+      "title": "Algorithms",
+      "desc": "",
+      "updated": 1649373557406,
+      "created": 1649370299034,
+      "custom": {},
+      "fname": "Algorithms",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e2174946d9cf8bc481afe9549c775771",
+      "links": [],
+      "anchors": {
+        "algorithms": {
+          "type": "header",
+          "text": "Algorithms",
+          "value": "algorithms",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "x32k6l6o7od7pnjj4nhextn",
+        "u5qsnre4i55ej7tag2vwg50"
+      ],
+      "parent": "wn8PE1RhG0znK1alrGFYv",
+      "data": {}
+    },
+    "u5qsnre4i55ej7tag2vwg50": {
+      "id": "u5qsnre4i55ej7tag2vwg50",
+      "title": "Dynamic Programming",
+      "desc": "",
+      "updated": 1649654104562,
+      "created": 1649648171581,
+      "custom": {},
+      "fname": "Algorithms.Dynamic Programming",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "e6f9f5790917e677f1ce14c294031b95",
+      "links": [],
+      "anchors": {
+        "resources": {
+          "type": "header",
+          "text": "Resources",
+          "value": "resources",
+          "line": 8,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "8fw4xwe5s296cc697g6wdal",
+      "data": {}
+    },
+    "x32k6l6o7od7pnjj4nhextn": {
+      "id": "x32k6l6o7od7pnjj4nhextn",
+      "title": "Asymptotic Analysis",
+      "desc": "",
+      "updated": 1649373776418,
+      "created": 1649373673902,
+      "custom": {},
+      "fname": "Algorithms.Asymptotic Analysis",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "bfaadc0df6b56628a8dd40b1517828dd",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "8fw4xwe5s296cc697g6wdal",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Root",
+      "desc": "",
+      "updated": 1649446047937,
+      "created": 1631901573363,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "vault"
+      },
+      "contentHash": "507d4dbcd7bf14ced7918d640729fe22",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "wn8PE1RhG0znK1alrGFYv",
+            "vaultName": "vault"
+          },
+          "value": "user.binarystag",
+          "alias": "@binarystag",
+          "position": {
+            "start": {
+              "line": 2,
+              "column": 13,
+              "offset": 13
+            },
+            "end": {
+              "line": 2,
+              "column": 24,
+              "offset": 24
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "to": {
+            "fname": "user.binarystag"
+          }
+        }
+      ],
+      "anchors": {
+        "my-notes-binarystag": {
+          "type": "header",
+          "text": "My notes (@binarystag)",
+          "value": "my-notes-binarystag",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "sections": {
+          "type": "header",
+          "text": "Sections:",
+          "value": "sections",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [
+        "8fw4xwe5s296cc697g6wdal",
+        "tg693e9l5g77psni6defy6h",
+        "NUz98ls1bdGed4HXQ0Z4C",
+        "Mhv0wNqRgu2h7j3Ws71eo",
+        "Te2jPQSZKapqVSsNhw7jA",
+        "m41bS3zCQX1qEK2y2GD03",
+        "root"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n# My notes (@binarystag)\n\n[LinkedIn](https://www.linkedin.com/in/aaron-deas-ba9908166/)\n[Github](https://github.com/b00000001)\n\n### Sections:\n\n1. [TypeScript](./Typescript.md)\n2. [Testing](./Testing)\n3. [Database](./Database)\n4. [Gaming](./Gaming)\n5. [Data Structures](./Data_Structures)\n"
+    }
+  ],
+  "noteIndex": {
+    "id": "wn8PE1RhG0znK1alrGFYv",
+    "title": "Root",
+    "desc": "",
+    "updated": 1649446047937,
+    "created": 1631901573363,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "vault"
+    },
+    "contentHash": "507d4dbcd7bf14ced7918d640729fe22",
+    "links": [
+      {
+        "type": "wiki",
+        "from": {
+          "fname": "root",
+          "id": "wn8PE1RhG0znK1alrGFYv",
+          "vaultName": "vault"
+        },
+        "value": "user.binarystag",
+        "alias": "@binarystag",
+        "position": {
+          "start": {
+            "line": 2,
+            "column": 13,
+            "offset": 13
+          },
+          "end": {
+            "line": 2,
+            "column": 24,
+            "offset": 24
+          },
+          "indent": []
+        },
+        "xvault": false,
+        "to": {
+          "fname": "user.binarystag"
+        }
+      }
+    ],
+    "anchors": {
+      "my-notes-binarystag": {
+        "type": "header",
+        "text": "My notes (@binarystag)",
+        "value": "my-notes-binarystag",
+        "line": 8,
+        "column": 0,
+        "depth": 1
+      },
+      "sections": {
+        "type": "header",
+        "text": "Sections:",
+        "value": "sections",
+        "line": 13,
+        "column": 0,
+        "depth": 3
+      }
+    },
+    "children": [
+      "8fw4xwe5s296cc697g6wdal",
+      "tg693e9l5g77psni6defy6h",
+      "NUz98ls1bdGed4HXQ0Z4C",
+      "Mhv0wNqRgu2h7j3Ws71eo",
+      "Te2jPQSZKapqVSsNhw7jA",
+      "m41bS3zCQX1qEK2y2GD03",
+      "root"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\n# My notes (@binarystag)\n\n[LinkedIn](https://www.linkedin.com/in/aaron-deas-ba9908166/)\n[Github](https://github.com/b00000001)\n\n### Sections:\n\n1. [TypeScript](./Typescript.md)\n2. [Testing](./Testing)\n3. [Database](./Database)\n4. [Gaming](./Gaming)\n5. [Data Structures](./Data_Structures)\n"
+  },
+  "vaults": [
+    {
+      "fsPath": "vault"
+    }
+  ]
+}

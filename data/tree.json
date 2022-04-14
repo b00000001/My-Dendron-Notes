@@ -1,0 +1,233 @@
+{
+  "roots": [
+    {
+      "key": "wn8PE1RhG0znK1alrGFYv",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "8fw4xwe5s296cc697g6wdal",
+          "title": "Algorithms",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "x32k6l6o7od7pnjj4nhextn",
+              "title": "Asymptotic Analysis",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "u5qsnre4i55ej7tag2vwg50",
+              "title": "Dynamic Programming",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "tg693e9l5g77psni6defy6h",
+          "title": "Data_Structures",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "bmtssbv7ilt2gxxbg0jzqsm",
+              "title": "Arrays",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "ba7jyli2y10a52cdsxpo1ds",
+                  "title": "2d Arrays",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "grj95kp159njgvtmvz8g0v0",
+              "title": "Concepts",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "3s8g4j07a4kgk5w6dml2nwt",
+                  "title": "Fibonacci Study",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "mralq740wksq5x93gjx1mrt",
+              "title": "Stack",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "NUz98ls1bdGed4HXQ0Z4C",
+          "title": "Database",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "rcZtM3Lr2IwA1RrostUzx",
+              "title": "MSSQL",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "LdyBBc09scCgb8KfpP0Ei",
+              "title": "Mysql",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "Mhv0wNqRgu2h7j3Ws71eo",
+          "title": "Gaming",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "WexjHhZ6XPsVPVm9aTaSG",
+              "title": "Final Fantasy Series",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "rTX2Byza8wqRdhRGIDdsA",
+                  "title": "Final Fantasy 7",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "4iK7uWzeRolsIIV2fUcPT",
+              "title": "Incremental Game Brainstorming",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "Te2jPQSZKapqVSsNhw7jA",
+          "title": "Testing",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "BvylLDmKLjzTLRC8hRPmw",
+              "title": "Jest",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "d2Mw1WWZ2RpIbaGwpgEie",
+              "title": "Supertest",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "m41bS3zCQX1qEK2y2GD03",
+          "title": "Typescript",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "aqC9hgjcukewMHrV47bVC",
+              "title": "AppSetup",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "PyvdYfaoqUE9wikvRsPfJ",
+              "title": "Types",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "root",
+          "title": "root",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "wn8PE1RhG0znK1alrGFYv": null,
+    "root": "wn8PE1RhG0znK1alrGFYv",
+    "m41bS3zCQX1qEK2y2GD03": "wn8PE1RhG0znK1alrGFYv",
+    "PyvdYfaoqUE9wikvRsPfJ": "m41bS3zCQX1qEK2y2GD03",
+    "aqC9hgjcukewMHrV47bVC": "m41bS3zCQX1qEK2y2GD03",
+    "Te2jPQSZKapqVSsNhw7jA": "wn8PE1RhG0znK1alrGFYv",
+    "d2Mw1WWZ2RpIbaGwpgEie": "Te2jPQSZKapqVSsNhw7jA",
+    "BvylLDmKLjzTLRC8hRPmw": "Te2jPQSZKapqVSsNhw7jA",
+    "Mhv0wNqRgu2h7j3Ws71eo": "wn8PE1RhG0znK1alrGFYv",
+    "4iK7uWzeRolsIIV2fUcPT": "Mhv0wNqRgu2h7j3Ws71eo",
+    "WexjHhZ6XPsVPVm9aTaSG": "Mhv0wNqRgu2h7j3Ws71eo",
+    "rTX2Byza8wqRdhRGIDdsA": "WexjHhZ6XPsVPVm9aTaSG",
+    "NUz98ls1bdGed4HXQ0Z4C": "wn8PE1RhG0znK1alrGFYv",
+    "LdyBBc09scCgb8KfpP0Ei": "NUz98ls1bdGed4HXQ0Z4C",
+    "rcZtM3Lr2IwA1RrostUzx": "NUz98ls1bdGed4HXQ0Z4C",
+    "tg693e9l5g77psni6defy6h": "wn8PE1RhG0znK1alrGFYv",
+    "mralq740wksq5x93gjx1mrt": "tg693e9l5g77psni6defy6h",
+    "grj95kp159njgvtmvz8g0v0": "tg693e9l5g77psni6defy6h",
+    "3s8g4j07a4kgk5w6dml2nwt": "grj95kp159njgvtmvz8g0v0",
+    "bmtssbv7ilt2gxxbg0jzqsm": "tg693e9l5g77psni6defy6h",
+    "ba7jyli2y10a52cdsxpo1ds": "bmtssbv7ilt2gxxbg0jzqsm",
+    "8fw4xwe5s296cc697g6wdal": "wn8PE1RhG0znK1alrGFYv",
+    "u5qsnre4i55ej7tag2vwg50": "8fw4xwe5s296cc697g6wdal",
+    "x32k6l6o7od7pnjj4nhextn": "8fw4xwe5s296cc697g6wdal"
+  }
+}

@@ -1,0 +1,291 @@
+<h1 id="types"><a aria-hidden="true" class="anchor-heading" href="#types"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Types</h1>
+<h2 id="contents"><a aria-hidden="true" class="anchor-heading" href="#contents"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Contents">Contents</a></strong></h2>
+<ol>
+<li><a href="#Unions">Unions</a></li>
+<li><a href="#Booleans">Booleans</a></li>
+<li><a href="#Strings">Strings</a></li>
+<li><a href="#Arrays">Arrays</a></li>
+<li><a href="#Tuple">Tuple</a></li>
+<li><a href="#Enum">Enum</a></li>
+<li><a href="#Unknown">Unknown</a></li>
+<li><a href="#Any">Any</a></li>
+<li><a href="#Void">Void</a></li>
+<li><a href="#Null">Null</a></li>
+<li><a href="#Never">Never</a></li>
+<li><a href="#Object">Object</a></li>
+</ol>
+<h3 id="tips"><a aria-hidden="true" class="anchor-heading" href="#tips"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Tips">Tips</a></strong></h3>
+<p><strong>1. To learn the type of a variable, use typeof</strong></p>
+<pre><code>import axios from 'axios';
+(async () => {
+    const data = await axios.get('https://pokeapi.co/api/v2/pokemon/1');
+console.log(data.data.species, typeof data.data.species.name);
+})();
+</code></pre>
+<h3 id="output"><a aria-hidden="true" class="anchor-heading" href="#output"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output</h3>
+<pre><code>{
+     name: 'bulbasaur',
+     url: 'https://pokeapi.co/api/v2/pokemon-species/1/'
+}
+string
+</code></pre>
+<hr>
+<h3 id="unions"><a aria-hidden="true" class="anchor-heading" href="#unions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Unions">Unions</a></strong></h3>
+<p>With a union, you can declare that a type could be one of many types. For example, you can describe a boolean type as being either true or false:</p>
+<p><code>type MyBool = true | false;</code></p>
+<p>Note: If you hover over MyBool, you’ll see that it is classed as boolean. That’s a property of the Structural Type System. More on this below.</p>
+<p>A popular use-case for union types is to describe the set of string or number literals that a value is allowed to be:</p>
+<pre><code>type WindowStates = "open" | "closed" | "minimized";
+type LockStates = "locked" | "unlocked";
+type PositiveOddNumbersUnderTen = 1 | 3 | 5 | 7 | 9;
+</code></pre>
+<h4 id="top"><a aria-hidden="true" class="anchor-heading" href="#top"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="booleans"><a aria-hidden="true" class="anchor-heading" href="#booleans"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Boolean">Booleans</a></strong></h3>
+<hr>
+<h4 id="declaration"><a aria-hidden="true" class="anchor-heading" href="#declaration"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>let tired: boolean = true;
+</code></pre>
+<h4 id="usage"><a aria-hidden="true" class="anchor-heading" href="#usage"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+    let tired: boolean = true;
+    if(tired){
+        console.log("I am tired");
+    } else {
+        console.log(`I'm not that tired!`)
+    }
+})()
+
+</code></pre>
+<h4 id="top-1"><a aria-hidden="true" class="anchor-heading" href="#top-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="strings"><a aria-hidden="true" class="anchor-heading" href="#strings"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Strings">Strings</a></strong></h3>
+<hr>
+<h4 id="declaration-1"><a aria-hidden="true" class="anchor-heading" href="#declaration-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>let name: string = 'Aaron';
+</code></pre>
+<h4 id="usage-1"><a aria-hidden="true" class="anchor-heading" href="#usage-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+    let name: string = 'Aaron';
+    console.log(name);
+})()
+</code></pre>
+<h4 id="top-2"><a aria-hidden="true" class="anchor-heading" href="#top-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<h3 id="arrays"><a aria-hidden="true" class="anchor-heading" href="#arrays"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Arrays">Arrays</a></strong></h3>
+<hr>
+<h4 id="declaration-2"><a aria-hidden="true" class="anchor-heading" href="#declaration-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>let names: string[] = ['Aaron', 'Eric'];
+</code></pre>
+<h4 id="usage-2"><a aria-hidden="true" class="anchor-heading" href="#usage-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+    let names: string[] = ['Aaron', 'Eric', 'John', 'Michael'];
+    console.log(names);
+})()
+</code></pre>
+<ul>
+<li>You can also use generic array types ie:</li>
+</ul>
+<pre><code>(() => {
+    let names: Array&#x3C;string> = ['Aaron', 'Eric', 'John', 'Michael'];
+    console.log(names);
+})()
+</code></pre>
+<h4 id="top-3"><a aria-hidden="true" class="anchor-heading" href="#top-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="tuple"><a aria-hidden="true" class="anchor-heading" href="#tuple"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Tuple">Tuple</a></strong></h3>
+<hr>
+<h4 id="declaration-3"><a aria-hidden="true" class="anchor-heading" href="#declaration-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>let x: [string, string, number];
+</code></pre>
+<h4 id="usage-3"><a aria-hidden="true" class="anchor-heading" href="#usage-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+    let x: [string, string, number];
+    x = ["New Year", 'Sunday', 31];
+    console.log(x);
+})()
+</code></pre>
+<h4 id="top-4"><a aria-hidden="true" class="anchor-heading" href="#top-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="enum"><a aria-hidden="true" class="anchor-heading" href="#enum"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a id="Enum">Enum</a></strong></h3>
+<hr>
+<h4 id="declaration-4"><a aria-hidden="true" class="anchor-heading" href="#declaration-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<ul>
+<li>An enum is a way of giving more friendly names to sets of numeric values. (numeric values will default if not implicitly set)</li>
+</ul>
+<pre><code>enum SaiyanLevel {
+    SSJ = 1, //1
+    SSJ2, //2
+    SSJ3 //3
+}
+</code></pre>
+<h3 id="usage-4"><a aria-hidden="true" class="anchor-heading" href="#usage-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h3>
+<pre><code>(() => {
+    enum SaiyanLevels {
+        SSJ,
+        SSJ2,
+        SSJ3,
+        SSJ4,
+    }
+    let s:SaiyanLevels = SaiyanLevels.SSJ4;
+    console.log(s);
+})()
+</code></pre>
+<h4 id="output-1"><a aria-hidden="true" class="anchor-heading" href="#output-1"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output:</h4>
+<pre><code>4
+</code></pre>
+<ul>
+<li>You are also able to print the name of a specific value of an enum.</li>
+</ul>
+<pre><code>(() => {
+    enum SaiyanLevels {
+        SSJ,
+        SSJ2,
+        SSJ3,
+        SSJ4,
+    }
+    let s:string = SaiyanLevels[3];
+    console.log(s);
+})()
+</code></pre>
+<h3 id="output-2"><a aria-hidden="true" class="anchor-heading" href="#output-2"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output</h3>
+<pre><code>SSJ4
+</code></pre>
+<h4 id="top-5"><a aria-hidden="true" class="anchor-heading" href="#top-5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="unknown"><a aria-hidden="true" class="anchor-heading" href="#unknown"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a id="Unknown"><strong>Unknown</strong></a></h3>
+<hr>
+<p>For variables that the type is unknown</p>
+<h4 id="declaration-5"><a aria-hidden="true" class="anchor-heading" href="#declaration-5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>const value: unknown = 5;
+</code></pre>
+<h4 id="usage-5"><a aria-hidden="true" class="anchor-heading" href="#usage-5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+  const value: unknown = 5;
+  console.log(value);
+})();
+
+</code></pre>
+<h3 id="output-3"><a aria-hidden="true" class="anchor-heading" href="#output-3"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output</h3>
+<pre><code>5
+</code></pre>
+<h4 id="top-6"><a aria-hidden="true" class="anchor-heading" href="#top-6"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="any"><a aria-hidden="true" class="anchor-heading" href="#any"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a id="Any"><strong>Any</strong></a></h3>
+<hr>
+<h4 id="declaration-6"><a aria-hidden="true" class="anchor-heading" href="#declaration-6"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>let name: any = 'Din Djarin';
+</code></pre>
+<h4 id="usage-6"><a aria-hidden="true" class="anchor-heading" href="#usage-6"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+  let mandoParty: any = {
+    leader: 'Din Djarin',
+    members: ['Grogu', 'Ahsoka']
+  };
+
+  /*   None of the following lines of code will throw compiler errors.
+  Using `any` disables all further type checking, and it is assumed
+  you know the environment better than TypeScript. */
+
+  mandoParty.foo(); // method does not exist, just here for example.
+  mandoParty.transportation = 'ship';
+  const test: number = mandoParty;
+})();
+</code></pre>
+<h4 id="top-7"><a aria-hidden="true" class="anchor-heading" href="#top-7"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="void"><a aria-hidden="true" class="anchor-heading" href="#void"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a id="Void"><strong>Void</strong></a></h3>
+<hr>
+<p>Void type is a function which returns <code>undefined</code> or has no return value</p>
+<h4 id="declaration-7"><a aria-hidden="true" class="anchor-heading" href="#declaration-7"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>const value: void = undefined;
+
+</code></pre>
+<h4 id="usage-7"><a aria-hidden="true" class="anchor-heading" href="#usage-7"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+  const value: void = undefined;
+  const value: void = 1; // error
+  console.log(value);
+})();
+
+</code></pre>
+<h3 id="output-4"><a aria-hidden="true" class="anchor-heading" href="#output-4"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output</h3>
+<pre><code>undefined
+</code></pre>
+<h4 id="top-8"><a aria-hidden="true" class="anchor-heading" href="#top-8"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="null"><a aria-hidden="true" class="anchor-heading" href="#null"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a id="Null"><strong>Null</strong></a></h3>
+<hr>
+<h4 id="declaration-8"><a aria-hidden="true" class="anchor-heading" href="#declaration-8"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>const value: null = null;
+</code></pre>
+<h4 id="usage-8"><a aria-hidden="true" class="anchor-heading" href="#usage-8"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+  const value: null = null;
+  console.log(value);
+})();
+
+</code></pre>
+<h3 id="output-5"><a aria-hidden="true" class="anchor-heading" href="#output-5"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Output</h3>
+<pre><code>null
+</code></pre>
+<h4 id="top-9"><a aria-hidden="true" class="anchor-heading" href="#top-9"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="never"><a aria-hidden="true" class="anchor-heading" href="#never"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a id="Never"><strong>Never</strong></a></h3>
+<p>It’s not possible that this type could happen</p>
+<ul>
+<li>The never type is used when you are sure that something is never going to occur. For example, you write a function which will not return to its end point or always throws an exception.</li>
+</ul>
+<h4 id="declaration-9"><a aria-hidden="true" class="anchor-heading" href="#declaration-9"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>const neverFunc = (): never => {
+  throw new Error('never');
+};
+</code></pre>
+<h4 id="top-10"><a aria-hidden="true" class="anchor-heading" href="#top-10"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="object"><a aria-hidden="true" class="anchor-heading" href="#object"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a id="Object"><strong>Object</strong></a></h3>
+<hr>
+<h4 id="declaration-10"><a aria-hidden="true" class="anchor-heading" href="#declaration-10"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Declaration</h4>
+<pre><code>let myObject: object;
+myObject = {
+    name: 'Luke Skywalker',
+    alignment: 'Light Side'
+  };
+
+</code></pre>
+<h4 id="usage-9"><a aria-hidden="true" class="anchor-heading" href="#usage-9"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Usage</h4>
+<pre><code>(() => {
+  let myObject: object;
+
+  myObject = {
+    name: 'Luke Skywalker',
+    alignment: 'Light Side'
+  };
+  console.log(myObject);
+})();
+</code></pre>
+<h3 id="note"><a aria-hidden="true" class="anchor-heading" href="#note"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Note</h3>
+<p>To explicitly specify properties of the <code>employee</code> object, you first use the following syntax to declare the myObject object.</p>
+<pre><code>let myObject: {
+    name: string;
+    alignment: string;
+    };
+// then assign the myObject object to a literal object with the appropriate properties.
+
+    myObject = {
+    name: 'Luke Skywalker',
+    alignment: 'Light Side'
+    };
+
+</code></pre>
+<h3 id="or"><a aria-hidden="true" class="anchor-heading" href="#or"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Or</h3>
+<pre><code>let myObject: {
+    name: string;
+    alignment: string;
+    } = {
+    name: 'Luke Skywalker',
+    alignment: 'Light Side'
+    };
+</code></pre>
+<h4 id="top-11"><a aria-hidden="true" class="anchor-heading" href="#top-11"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="#Contents">Top</a></h4>
+<hr>
+<h3 id="back"><a aria-hidden="true" class="anchor-heading" href="#back"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><strong><a href="./Typescript.md">Back</a></strong></h3>

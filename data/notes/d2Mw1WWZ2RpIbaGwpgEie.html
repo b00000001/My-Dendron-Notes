@@ -1,0 +1,80 @@
+<h1 id="supertest"><a aria-hidden="true" class="anchor-heading" href="#supertest"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Supertest</h1>
+<p>Super test is used in conjunction with JEST or on it's own to test http requests.</p>
+<ul>
+<li>once installed, it can be used and referenced by calling <code>require('supertest')</code></li>
+</ul>
+<h3 id="installation"><a aria-hidden="true" class="anchor-heading" href="#installation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Installation</h3>
+<p><code>npm install supertest</code></p>
+<h3 id="setup"><a aria-hidden="true" class="anchor-heading" href="#setup"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Setup</h3>
+<ul>
+<li>create normal expres app</li>
+<li>be sure to create <code>__tests__</code> folder, this seems to be what JEST needs to run testing. (You can run supertest without jest but issues are reported in normal error messages as opposed to jest style message).</li>
+<li>create a file with the convention <code>(FILENAME).test.js</code></li>
+<li>if testing expres, export the app component
+<code>export const app = express();</code></li>
+<li>import app object into test.js file <code>const { app } = require('../../dist/src/index.js');</code></li>
+<li>sample app using supertest with no test suites</li>
+</ul>
+<pre class="language-const"><code class="language-const">const assert = require('assert');
+const express = require('express');
+
+const app = express();
+
+app.get('/user', function(req, res) {
+  res.status(200).json({ name: 'john' });
+});
+
+request(app)
+  .get('/user')
+  .expect('Content-Type', /json/)
+  .expect('Content-Length', '15')
+  .expect(200)
+  .end(function(err, res) {
+    if (err) throw err;
+  });
+</code></pre>
+<h3 id="api-guide"><a aria-hidden="true" class="anchor-heading" href="#api-guide"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>API Guide</h3>
+<p>API
+You may use any superagent methods, including .write(), .pipe() etc and perform assertions in the .end() callback for lower-level needs.</p>
+<ul>
+<li>
+<p><strong>.expect(status[, fn])</strong>
+Assert response status code.</p>
+</li>
+<li>
+<p><strong>.expect(status, body[, fn])</strong>
+Assert response status code and body.</p>
+</li>
+<li>
+<p><strong>.expect(body[, fn])</strong>
+Assert response body text with a string, regular expression, or parsed body object.</p>
+</li>
+<li>
+<p><strong>.expect(field, value[, fn])</strong>
+Assert header field value with a string or regular expression.</p>
+</li>
+<li>
+<p><strong>.expect(function(res) {})</strong>
+Pass a custom assertion function. It'll be given the response object to check. If the check fails, throw an error.</p>
+</li>
+</ul>
+<pre><code>request(app)
+  .get('/')
+  .expect(hasPreviousAndNextKeys)
+  .end(done);
+
+function hasPreviousAndNextKeys(res) {
+  if (!('next' in res.body)) throw new Error("missing next key");
+  if (!('prev' in res.body)) throw new Error("missing prev key");
+}
+</code></pre>
+<ul>
+<li><strong>.end(fn)</strong>
+Perform the request and invoke fn(err, res).</li>
+</ul>
+<p><a href="/My-Dendron-Notes/notes/Te2jPQSZKapqVSsNhw7jA">Back</a></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/My-Dendron-Notes/notes/Te2jPQSZKapqVSsNhw7jA">Testing</a></li>
+</ul>
